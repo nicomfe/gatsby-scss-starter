@@ -16,7 +16,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     {
-      resolve: 'gatsby-plugin-postcss-sass',
+      resolve: 'gatsby-plugin-sass',
       options: {
         postCssPlugins: [
           pixrem(),
