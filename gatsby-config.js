@@ -3,7 +3,7 @@ const autoprefixer = require('autoprefixer')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Dunam Ingeniería',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
