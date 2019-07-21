@@ -5,7 +5,7 @@ import './navbar.scss'
 
 const NavBar = () => (
   <div className='nav-container'>
-    <div><h3>Cloudwise</h3></div>
+    <div><h3>Gatsby SCSS</h3></div>
     <div>
       <Link to='/pricing'>Pricing</Link>
       <Link to='/about-us'>About Us</Link>
