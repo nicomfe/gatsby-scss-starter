@@ -1,0 +1,21 @@
+.nav-container {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1780px;
+  margin: 0 auto;
+  h3 {
+    color: white;
+  }
+  a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  a + a {
+    margin-left: 5vw;
+  }
+}

@@ -1,11 +1,27 @@
 .primary-button {
   height: 50px;
-  width: 100px;
-  background-color: #663399;
+  background-image: linear-gradient(#0c2461, #0c2490);
+  border-radius: 2px;
   display: flex;
+  max-width: 150px;
   justify-content: center;
   margin: 1rem 0;
-  span {
+  box-shadow: 0 7px 10px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
+  border: none;
+  opacity: 0.9;
+  &:hover {
+    opacity: 1;
+  }
+  a {
+    text-decoration: none;
+    max-width: 200px;
     color: white;
+    height: 100%;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: white;
+    box-sizing: border-box;
   }
 }
