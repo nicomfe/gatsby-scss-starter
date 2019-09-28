@@ -13,7 +13,6 @@
     "gatsby-plugin-sharp": "^2.0.7",
     "gatsby-source-filesystem": "^2.0.4",
     "gatsby-transformer-sharp": "^2.1.4",
-    "node-sass": "4.9.4",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0"
@@ -29,7 +28,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "autoprefixer": "9.3.1",
+    "autoprefixer": "9.6.1",
     "eslint": "5.7.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-babel": "5.2.1",
@@ -38,7 +37,8 @@
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-react": "7.11.1",
     "eslint-plugin-styled-components-config": "0.0.2",
-    "pixrem": "4.0.1",
+    "node-sass": "4.12.0",
+    "pixrem": "5.0.0",
     "prettier": "^1.14.2"
   },
   "repository": {

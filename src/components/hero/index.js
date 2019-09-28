@@ -13,8 +13,8 @@ const Hero = () => (
       <div className='hero-text'>
         <h1>Gatsby SCSS Template</h1>
         <ul>
-         <li>Super easy to start.</li>
-         <li>Styling using scss.</li>
+          <li>Super easy to start.</li>
+          <li>Styling using scss.</li>
         </ul>
         <Button><Link to='/notify-me'>Get Started</Link></Button>
       </div>
