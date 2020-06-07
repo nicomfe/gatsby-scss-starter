@@ -1,16 +1,11 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
+import Logo from '../../../static/images/logo.svg'
 import './navbar.scss'
 
 const NavBar = () => (
   <div className='nav-container'>
-    <div><h3>Gatsby SCSS</h3></div>
-    <div>
-      <Link to='/pricing'>Pricing</Link>
-      <Link to='/about-us'>About Us</Link>
-      <Link to='/contact'>Contact</Link>
-    </div>
+    <img src={Logo} alt='New Bre Bar Logo' />
   </div>
 )
 

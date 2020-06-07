@@ -1,21 +1,17 @@
 .nav-container {
-  height: 50px;
+  padding: 15px;
+  padding-bottom: 0;
+  text-align: center;
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  max-width: 1780px;
-  margin: 0 auto;
-  h3 {
-    color: white;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    margin: 0;
+    padding: 0;
+    color: black;
   }
-  a {
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 12px;
-    opacity: 0.8;
-  }
-  a + a {
-    margin-left: 5vw;
+  img {
+    height: 60px;
   }
 }

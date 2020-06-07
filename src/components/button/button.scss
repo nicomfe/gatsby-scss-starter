@@ -1,13 +1,16 @@
 .primary-button {
   height: 50px;
-  background-image: linear-gradient(#0c2461, #0c2490);
+  background-color: white;
   border-radius: 2px;
   display: flex;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 100%;
   max-width: 150px;
   justify-content: center;
   margin: 1rem 0;
-  box-shadow: 0 7px 10px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
-  border: none;
+  border: solid black 1px;
   opacity: 0.9;
   &:hover {
     opacity: 1;

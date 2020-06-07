@@ -1,3 +1,6 @@
+To run PHP server locally run:
+cd public
+php -S localhost:8000
 
 # I added some stuff to the default Gatsby starter:
 

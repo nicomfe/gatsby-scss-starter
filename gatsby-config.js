@@ -3,7 +3,7 @@ const autoprefixer = require('autoprefixer')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Bookings | New Brew Bar & Restaurant',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -11,7 +11,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/static/images`,
       },
     },
     'gatsby-transformer-sharp',
@@ -20,11 +20,16 @@ module.exports = {
       options: {
         postCssPlugins: [
           pixrem(),
-          autoprefixer({
-            browsers: ['last 2 versions'],
-          }),
+          autoprefixer(),
         ],
         precision: 8,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-T6BTDZ9',
+        includeInDevelopment: false,
       },
     },
     'gatsby-plugin-sharp',
@@ -34,10 +39,10 @@ module.exports = {
         name: 'gatsby-starter-default',
         short_name: 'starter',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#fff',
+        theme_color: '#e5383a',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'static/images/favicon-32x32.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-offline',

@@ -1,0 +1,24 @@
+@import '../../theme/variables.scss';
+
+.red-circle {
+  position: absolute;
+  background-color: $red;
+  width: 30vw;
+  height: 30vw;
+  left: -10vw;
+  top: -10vw;
+  border-radius: 50%;
+}
+
+.contact-theme-container {
+  p {
+    margin: 1rem auto;
+    opacity: 0.9;
+    margin-top: 0;
+    font-size: 14px;
+    max-width: 360px;
+    z-index: 999;
+    display: block;
+    background-color: white;
+  }
+}

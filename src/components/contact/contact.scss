@@ -1,0 +1,74 @@
+@import '../../theme/variables.scss';
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-message-container {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.contact-message-success {
+  color: $success;
+}
+
+.contact-message-error {
+  color: $error;
+}
+
+.form-group label {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  text-transform: uppercase;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+  font-weight: bold;
+  span {
+    width: 180px;
+  }
+}
+
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  h1 {
+    position: absolute;
+    transform: rotate(90deg) translateX(100px) translateY(-40vw);
+    top: 0;
+    right: 0;
+    font-size: 100px;
+    margin: 0;
+    text-transform: uppercase;
+    z-index: -1;
+  }
+  input, textarea, select {
+    background: white;
+    outline-color: black;
+    opacity: 0.9;
+    z-index: 99;
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    margin: 10px 0;
+    font-size: 14px;
+    border: solid black 1px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  button {
+    position: relative;
+    margin-left: auto;
+  }
+  textarea {
+    min-height: 100px;
+  }
+}
+
+.rugby-quiz {
+
+}

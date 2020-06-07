@@ -58,10 +58,6 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
-  font-size: 2em;
-  margin: .67em 0;
-}
 mark {
   background-color: #ff0;
   color: #000;
@@ -198,6 +194,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
+  background-size: cover;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -621,11 +618,10 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
   color: inherit;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
